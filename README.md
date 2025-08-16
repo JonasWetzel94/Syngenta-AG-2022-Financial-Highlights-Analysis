@@ -8,27 +8,26 @@
 ## Tasks
 - Locate Syngenta AG’s 2022 financial report (PDF) and extract statement data into Excel. :contentReference[oaicite:1]{index=1}  
 - Build clean calculations for margins (gross/operating/net), ROA/ROE, and basic balance checks.  
-- Summarize revenue drivers (volume, price, FX) and notable product/geography splits based on the report narrative & notes. :contentReference[oaicite:2]{index=2}  
+- Summarize revenue drivers (volume, price, FX) and notable product/geography splits based on the report narrative & notes.
 - Provide a concise, recruiter-friendly deliverable explaining methods and results.
 
 ## Accounting/Analytics Steps
 1. **Data capture from PDF → Excel**  
-   - Copied the Financial Highlights table (2018–2022) into a structured Excel sheet; cleaned headings, number formats, and years. :contentReference[oaicite:3]{index=3}
+   - Copied the Financial Highlights table (2018–2022) into a structured Excel sheet; cleaned headings, number formats, and years.
 2. **Core computations (2022)**  
    - Gross Profit = Sales − COGS = **8,323** (= 19,963 − 11,640).  
    - Operating Income = Gross Profit − Operating Expenses = **2,850** (= 8,323 − 5,473).  
    - Net Margin = Net Income / Sales ≈ **10%** (= 1,907 / 19,963).  
 3. **Revenue analysis**  
-   - FY22 revenue increased **~19%** vs. FY21: **+7% volume**, **+15% local prices**, **−4% FX**. :contentReference[oaicite:4]{index=4}  
-   - Product example: **Seedcare +14%** YoY; **Flowers ≈ 1% of total** (197 / 19,963). :contentReference[oaicite:5]{index=5}
+   - FY22 revenue increased **~19%** vs. FY21: **+7% volume**, **+15% local prices**, **−4% FX**. 
+   - Product example: **Seedcare +14%** YoY; **Flowers ≈ 1% of total** (197 / 19,963).
 4. **Liquidity & financing notes**  
-   - **CFO decreased** in FY22 vs. FY21; review cash flow statement narrative for drivers. :contentReference[oaicite:6]{index=6}  
-   - Financing: repayments of private placement notes/leases and additional short-/long-term debt; annual dividends **$400m**. :contentReference[oaicite:7]{index=7}
+   - **CFO decreased** in FY22 vs. FY21; review cash flow statement narrative for drivers. 
+   - Financing: repayments of private placement notes/leases and additional short-/long-term debt; annual dividends **$400m**. 
 5. **Controls**  
    - Reconcile statement subtotals and re-check margins; verify that **Assets ≈ Liabilities + Equity** (allowing for rounding/NCI presentation).
 
 ## Trial Balance / Data Summary (2022, USD $m)
-> Source: “Financial Highlights (Summary)” screenshot.
 
 | Line item                                   | 2022 |
 |---|---:|
@@ -60,7 +59,6 @@
 - **ROA:** **7%**  
 - **ROE:** **31%**  
 
-_Note: Ratio labels and values reflect the company’s summary table; reproduce exactly in Excel for consistency._
 
 ## Mapping / Logic
 - **Income Statement mapping**
