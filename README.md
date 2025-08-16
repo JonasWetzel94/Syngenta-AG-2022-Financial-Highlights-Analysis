@@ -4,8 +4,6 @@
 <img width="740" height="549" alt="image" src="https://github.com/user-attachments/assets/e4d8fecf-645e-4c1c-af76-7c08e1aee583" />
 
 
-## Case Description
-You’re a financial analyst covering Syngenta AG. Using the company’s published 2022 report, you transfer the **Financial Highlights (Summary)** and related notes into Excel and analyze revenue drivers, profitability, liquidity, and equity movements using only public information. :contentReference[oaicite:0]{index=0}
 
 ## Tasks
 - Locate Syngenta AG’s 2022 financial report (PDF) and extract statement data into Excel. :contentReference[oaicite:1]{index=1}  
