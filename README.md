@@ -6,7 +6,7 @@
 
 
 ## Tasks
-- Locate Syngenta AG’s 2022 financial report (PDF) and extract statement data into Excel. :contentReference[oaicite:1]{index=1}  
+- Locate Syngenta AG’s 2022 financial report (PDF) and extract statement data into Excel.
 - Build clean calculations for margins (gross/operating/net), ROA/ROE, and basic balance checks.  
 - Summarize revenue drivers (volume, price, FX) and notable product/geography splits based on the report narrative & notes.
 - Provide a concise, recruiter-friendly deliverable explaining methods and results.
@@ -72,10 +72,10 @@
 - **Balance Sheet linkage**
   - Validate `Total Assets ≈ Total Liabilities + Total Equity` (small gaps acceptable due to rounding or non-controlling interests presentation).
 - **Revenue drivers (narrative → numbers)**
-  - From report text: `ΔRevenue% = Volume% + Price% + FX%` = `7% + 15% − 4% ≈ 19%`. :contentReference[oaicite:8]{index=8}
+  - From report text: `ΔRevenue% = Volume% + Price% + FX%` = `7% + 15% − 4% ≈ 19%`.
 
 ## How I Built It
-- **Tools:** Excel (clean sheets, cross-checks), PDF-to-Excel copy with structure clean-up. :contentReference[oaicite:9]{index=9}
+- **Tools:** Excel (clean sheets, cross-checks), PDF-to-Excel copy with structure clean-up.
 - **Excel techniques (examples)**  
   - Cleaning pasted rows: `=TEXTSPLIT(raw_text,CHAR(9))` or `Data → Text to Columns`.  
   - Core math: `=Sales - COGS`, `=GrossProfit / Sales`.  
@@ -88,14 +88,14 @@
 - **Documentation:** comments next to each formula; a small “Checks” section at the top of the sheet to show all-green status.
 
 ## What I Learned
-- Fast, reliable extraction of statement data from PDFs into Excel with minimal manual fixes. :contentReference[oaicite:10]{index=10}  
-- Translating MD&A narratives (volume/price/FX, product lines) into simple, auditable calculations. :contentReference[oaicite:11]{index=11}  
+- Fast, reliable extraction of statement data from PDFs into Excel with minimal manual fixes.
+- Translating MD&A narratives (volume/price/FX, product lines) into simple, auditable calculations.
 - Building quick integrity checks (subtotals, margin math, and assets vs. liabilities+equity).
 
 
 ## Quick Skills Snapshot
-- Financial statement extraction & reconciliation (PDF → Excel) with robust checks. :contentReference[oaicite:12]{index=12}  
+- Financial statement extraction & reconciliation (PDF → Excel) with robust checks. 
 - Margin/return analysis (GM, OM, NM, ROA, ROE) reproduced from issuer data.  
-- Revenue driver translation (volume/price/FX) from MD&A into simple analytics. :contentReference[oaicite:13]{index=13}  
+- Revenue driver translation (volume/price/FX) from MD&A into simple analytics.  
 - Clean, hiring-manager-friendly documentation and visuals aligned to the source.
 
